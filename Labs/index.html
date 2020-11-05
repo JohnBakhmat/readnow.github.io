@@ -95,36 +95,11 @@
                     </li>
                     <li>
                         <h3>№3</h3>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YnopHCL1Jk8?start=46" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <canvas onclick="draw()" id="myCanvas" width="290" height="290" style="border:1px solid #d3d3d3;">
-                            Your browser does not support the HTML canvas tag.</canvas>
-                        <form>
-                            <h5>Date</h5>
-                            <input class="form-control" type="datetime-local">
-                            <h5>URL</h5>
-                            <input class="form-control" type="url" placeholder="https://example.com">
-                            <h5>E-Mail</h5>
-                            <input class="form-control" type="email" placeholder="example@example.com">
-                            <h5>Phone</h5>
-                            <input class="form-control" type="tel" placeholder="+380*********">
-                            <br><button class="btn btn-success" type="submit">Save</button>
-                            
-                        </form>
-                        <div id="map" class="map"></div>
-                        <script>
-                            var map = new ol.Map({
-                                target: 'map',
-                                layers: [
-                                    new ol.layer.Tile({
-                                        source: new ol.source.OSM()
-                                    })
-                                ],
-                                view: new ol.View({
-                                    center: ol.proj.fromLonLat([30.30, 50.27]),
-                                    zoom: 7
-                                })
-                            });
-                        </script>
+                        <a class="btn btn-success" href="video/Index.html">Video</a>
+                        <a class="btn btn-success" href="canvas/index.html">Canvas</a>
+                        <a class="btn btn-success" href="form/index.html">From</a>
+                        <a class="btn btn-success" href="map/index.html">Map</a>
+                        
                     </li>
                     <li>
                         <h3>№4</h3>
