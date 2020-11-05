@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book>
+        <category>Novel</category>
+        <title lang="en">White Fang</title>
+        <author>Jack London</author>
+        <year>1906</year>
+        <price>20.00</price>
+    </book>
+    <book>
+        <category>Children</category>
+        <title lang="en">The Little Prince</title>
+        <author>Antoine de Saint-Exupéry</author>
+        <year>1943</year>
+        <price>15.00</price>
+    </book>
+    <book>
+        <category>Dystopian novel</category>
+        <title lang="en">Fahrenheit 451</title>
+        <author>Ray Bradbury</author>
+        <year>1953</year>
+        <price>5.00</price>
+    </book>
+    <book>
+        <category>Horror</category>
+        <title lang="en">Viy</title>
+        <author>Nikolay Gogol</author>
+        <year>1835</year>
+        <price>10.00</price>
+    </book>
+</bookstore>
